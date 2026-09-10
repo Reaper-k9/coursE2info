@@ -1,0 +1,5 @@
+a = float(input("Entrer votre taille en mètre :"))
+b = float(input("Entre votre poids en kilo gramme :"))
+a,b=abs(a),abs(b)
+IMC = b/(a*a)
+print(f"Votre IMC est de : {IMC:.2f}")
