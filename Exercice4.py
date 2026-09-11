@@ -8,4 +8,4 @@ while(terme!=N):
     i+=2
     k+=1
     terme+=1
-print("La valeur de pi est :",pi)
+print(f"La valeur de pi est : {round(pi,terme)}")
