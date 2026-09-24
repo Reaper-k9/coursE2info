@@ -10,4 +10,5 @@ def Syraccus(a):
             a = a*3 + 1
             print(a)
     return a
+    
 print(Syraccus(1243))
