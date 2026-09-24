@@ -4,7 +4,7 @@
 exit()
 
 #créer une nouvelle branche github
-git checkout -b TPn
+git checkout -b TPnomfichier
 #publier la branche
 git push -u origin TP3
 
