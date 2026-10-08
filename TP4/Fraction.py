@@ -12,6 +12,21 @@ class Fraction:
         newdeno = self.deno * other.deno
         return Fraction(newnume,newdeno)
     
+    def soustraction(self, other):
+        newnume = self.nume * other.deno - self.demo * other.nume
+        newdeno = self.deno * other.deno
+        return Fraction(newnume,newdeno)
+    
+    def multiplication(self, other):
+        newnume = self.nume * other.nume
+        newdeno = self.deno * other.deno
+        return Fraction(newnume,newdeno)
+    
+    def division(self, other):
+        newnume = self.nume * other.deno
+        newdeno = self.deno * other.nume
+        return Fraction(newnume,newdeno)
+    
 ob1 = Fraction(5,4)
 ob2 = Fraction(4,3)
 print()
