@@ -1,5 +1,5 @@
 
-def decalage_cesar(clé,phrase):
+def decalage_cesar(clé,phrase) -> str:
     clé = list(clé.upper())
     phrase = list(phrase.upper())
     #print(clé,phrase)
